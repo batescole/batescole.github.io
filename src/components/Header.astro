@@ -1,0 +1,89 @@
+---
+import { siteConfig } from "../config";
+
+const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
+const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
+const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+---
+
+<header
+  id="header"
+  class="fixed top-0 left-0 right-0 z-50 hidden md:block transition-all duration-300"
+>
+  <nav class="max-w-7xl mx-auto px-8 py-4">
+    <ul class="flex items-center gap-8 justify-center">
+      <li>
+        <a
+          href="#about"
+          class="text-white/80 hover:text-white transition-colors font-semibold"
+        >
+          About
+        </a>
+      </li>
+      {
+        hasProjects && (
+          <li>
+            <a
+              href="#projects"
+            class="text-white/80 hover:text-white transition-colors font-semibold"
+            >
+              Projects
+            </a>
+          </li>
+        )
+      }
+      {
+        hasExperience && (
+          <li>
+            <a
+              href="#experience"
+            class="text-white/80 hover:text-white transition-colors font-semibold"
+            >
+              Experience
+            </a>
+          </li>
+        )
+      }
+      {
+        hasEducation && (
+          <li>
+            <a
+              href="#education"
+            class="text-white/80 hover:text-white transition-colors font-semibold"
+            >
+              Education
+            </a>
+          </li>
+        )
+      }
+    </ul>
+  </nav>
+</header>
+
+<script>
+  window.addEventListener("scroll", () => {
+    const header = document.getElementById("header");
+    if (!header) return;
+
+    const linkSelectors = header.querySelectorAll("a");
+    if (window.scrollY > 100) {
+      header.classList.add("bg-white/80", "backdrop-blur-sm");
+      linkSelectors.forEach((el) => {
+        el.classList.remove("text-white/80", "hover:text-white");
+        el.classList.add("text-gray-800", "hover:text-black");
+      });
+    } else {
+      header.classList.remove("bg-white/80", "backdrop-blur-sm");
+      linkSelectors.forEach((el) => {
+        el.classList.remove("text-gray-800", "hover:text-black");
+        el.classList.add("text-white/80", "hover:text-white");
+      });
+    }
+  });
+</script>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
