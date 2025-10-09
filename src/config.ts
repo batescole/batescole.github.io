@@ -13,12 +13,20 @@ export const siteConfig = {
   skills: ["Python", "SQL", "R", "JavaScript", "HTML/CSS", "Data Analysis", "Machine Learning"],
   projects: [
     {
+      name: "Daily Automated Real Estate Fetcher",
+      description:
+        "A Python project using ScraperAPI to extract and analyze property listings from Zillow. Implemented cron-based scheduling, persistant automation, and clean output to assist me on the house hunt.",
+      link: "https://github.com/batescole/real-estate-api-fetcher",
+      skills: ["Python", "API", "Cron", "NumPy", "Pandas"],
+    },
+    {
       name: "PDF to Text Converter: Machine Learning Project",
       description:
         "A machine learning project that converts PDF files to text files using Python and the PyPDF2 library.",
       link: "https://github.com/batescole/PDF-to-Text-LLM",
       skills: ["Python", "Jupyter Notebook", "Machine Learning", "PDF LLM"],
     },
+    
   ],
 
   experience: [
