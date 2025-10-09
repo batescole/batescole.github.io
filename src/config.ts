@@ -15,7 +15,7 @@ export const siteConfig = {
     {
       name: "Daily Automated Real Estate Fetcher",
       description:
-        "A Python project using ScraperAPI to extract and analyze property listings from Zillow. Implemented cron-based scheduling, persistant automation, and clean output to assist me on the house hunt.",
+        "A Python project using RapidAPI to extract and analyze property listings from Zillow. Implemented cron-based scheduling, persistant automation, and clean output to assist me on the house hunt.",
       link: "https://github.com/batescole/real-estate-api-fetcher",
       skills: ["Python", "API", "Cron", "NumPy", "Pandas"],
     },
