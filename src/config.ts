@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Cole Bates",
-  title: "Tech Project Manager: Turning Plans into Scalable Software Solutions",
+  title: "Tech Project Manager: Solving problems one line of code at a time.",
   description: "Portfolio website of Cole Bates",
   accentColor: "#303030",
   social: {
