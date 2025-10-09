@@ -58,7 +58,7 @@ export const siteConfig = {
       dateRange: "WIP",
       achievements: [
         "Will obtain by November",
-        "Experience with enterpise grade cloud services and formal training/doucmentation",
+        "Experience with enterpise grade cloud services and formal training/documentation",
         "Specialized in Python, R, and SQL using Jupyter Notebooks",
       ],
     },
