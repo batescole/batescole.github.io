@@ -1,4 +1,4 @@
-<img width="1678" height="869" alt="Screenshot 2025-10-06 at 6 07 09 PM" src="https://github.com/user-attachments/assets/80294ad6-0519-4693-8a39-0428eac5866d"/>
+<img width="1680" height="915" alt="Screenshot 2025-10-09 at 5 06 22 PM" src="https://github.com/user-attachments/assets/1bd9fdef-6d30-4e7a-96a3-c749510198af" />
 
 # Portfolio
 
