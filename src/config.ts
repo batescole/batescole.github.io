@@ -55,10 +55,10 @@ export const siteConfig = {
     {
       school: "Oracle",
       degree: "OCI Data Science Professional Certificate",
-      dateRange: "2025",
+      dateRange: "WIP",
       achievements: [
-        "Experience with enterpise grade cloud services",
-        "Built 3+ portfolio projects",
+        "Will obtain by November",
+        "Experience with enterpise grade cloud services and formal training/doucmentation",
         "Specialized in Python, R, and SQL using Jupyter Notebooks",
       ],
     },
