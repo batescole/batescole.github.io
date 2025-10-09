@@ -9,7 +9,7 @@ export const siteConfig = {
     github: "https://github.com/batescole",
   },
   aboutMe:
-    "Solving problems one line of code at a time, Leading teams to innovate and excel.",
+    "Solving complex problems with software and data analysis—whether it be leading cross-functional teams to excel or personal passsion projects.",
   skills: ["Python", "SQL", "R", "JavaScript", "HTML/CSS", "Data Analysis", "Machine Learning"],
   projects: [
     {
