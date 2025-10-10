@@ -1,6 +1,4 @@
-<kbd>
-  <img width="1680" height="915" alt="Screenshot 2025-10-09 at 5 06 22 PM" src="https://github.com/user-attachments/assets/1bd9fdef-6d30-4e7a-96a3-c749510198af" />
-</kbd>
+<img width="1680" height="915" alt="Screenshot 2025-10-09 at 5 06 22 PM" src="https://github.com/user-attachments/assets/1bd9fdef-6d30-4e7a-96a3-c749510198af" />
 
 # Portfolio
 
