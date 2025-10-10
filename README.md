@@ -7,7 +7,7 @@ A modern, minimalist portfolio built with Astro and Tailwind CSS.
 
 ## Link
 
-To view the site, [click here](https://batescole.github.io/portfolio/).
+To view the site, [click here](https://batescole.github.io/).
 
 
 ## Built With
