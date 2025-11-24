@@ -52,15 +52,5 @@ export const siteConfig = {
         "Kappa Alpha Order",
       ],
     },
-    {
-      school: "Oracle",
-      degree: "OCI Data Science Professional Certificate",
-      dateRange: "WIP",
-      achievements: [
-        "Will obtain by November",
-        "Experience with enterpise grade cloud services and formal training/documentation",
-        "Specialized in Python, R, and SQL using Jupyter Notebooks",
-      ],
-    },
   ],
 };
